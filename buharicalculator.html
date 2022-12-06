@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+    </style>
+  </head>
+  <body>
+    <div class="container" align="center">
+      <h1>BUHARI CALCULATOR</h1>
+    <form name="forms">
+      <div class="calc">
+        <input type="text" id="answer" name="screen"><br>
+        <input type="button" name="" value=" 7 " onclick="forms.screen.value+='7'">
+        <input type="button" name="" value=" 8 " onclick="forms.screen.value+='8'">
+        <input type="button" name="" value=" 9 " onclick="forms.screen.value+='9'">
+        <input type="button" name="" value=" / " onclick="forms.screen.value+='/'">
+        <input type="button" value=" AC " class="btn-red" onclick="forms.screen.value=' '"><br>
+
+
+        <input type="button" name="" value=" 4 " onclick="forms.screen.value+='4'">
+        <input type="button" name="" value=" 5 " onclick="forms.screen.value+='5'">
+        <input type="button" name="" value=" 6 " onclick="forms.screen.value+='6'">
+        <input type="button" name="" value=" * " onclick="forms.screen.value+='*'">
+        <input type="button" name="" value=" % " onclick="forms.screen.value+='%'"><br>
+
+        <input type="button" name="" value=" 1  " onclick="forms.screen.value+='1'">
+        <input type="button" name="" value=" 2 " onclick="forms.screen.value+='2'">
+        <input type="button" name="" value=" 3 " onclick="forms.screen.value+='3'">
+        <input type="button" name="" value=" + " onclick="forms.screen.value+='+'">
+        <input type="button" name="" value=" - " onclick="forms.screen.value+='-'"><br>
+
+        <input type="button" name="" value="0" onclick="forms.screen.value+='0'">
+        <input type="button" name="" value="(" onclick="forms.screen.value+='('">
+        <input type="button" name="" value=")" onclick="forms.screen.value+=')'">
+        <input type="button" name="" value=" . " onclick="forms.screen.value+='.'">
+        <input type="button" name="" value=" = " class="btn-blue"onclick="forms.screen.value=eval(forms.screen.value)"><br>
+      </div>
+      </div>
+    </form>
+  </body>
+</html>
